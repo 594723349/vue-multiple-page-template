@@ -45,7 +45,7 @@ module.exports = {
                 extractComments: false, // 禁用提取注释
                 terserOptions: {
                     compress: {
-                        // drop_console: true, // 去掉代码中的打印
+                        drop_console: true, // 去掉代码中的打印
                     },
                 }
             }), // js压缩
